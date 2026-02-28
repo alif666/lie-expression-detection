@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Runtime outputs
+outputs/
+models/*.joblib
+models/*.pkl
+
+# Local sample/user media
+sample_data/*.mp4
+sample_data/*.mov
+sample_data/*.mkv
+sample_data/*.avi
+sample_data/*.wav
+sample_data/*.mp3
+
+# OpenFace local install and artifacts
+OpenFace/
+
+# Whisper / torch caches
+.cache/
+*.pt
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
